@@ -15,5 +15,24 @@
         android:scaleType="centerCrop"
         android:layout_marginBottom="20dp"/>
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Seasidebooker"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Seasidebooker, platform inovatif untuk memesan tiket wisata pantai secara online dengan cepat dan mudah. Nikmati kemudahan dalam merencanakan liburan Anda dengan layanan reservasi vila yang kami sediakan."
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
 
 </LinearLayout>
