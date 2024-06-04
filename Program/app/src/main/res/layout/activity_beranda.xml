@@ -21,7 +21,6 @@
             android:contentDescription="Gambar Pantai"
             android:layout_marginBottom="20dp"/>
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
@@ -63,6 +62,14 @@
             android:contentDescription="Gambar Pantai"
             android:layout_marginBottom="20dp"/>
 
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulau Pahawang salah satu destinasi wisata bahari terindah di Pesawaran, Lampunng"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
 
     </LinearLayout>
 
