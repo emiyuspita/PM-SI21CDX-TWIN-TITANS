@@ -16,7 +16,7 @@
             android:id="@+id/poto"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/benner"
+            android:src="@drawable/pto"
             android:scaleType="centerCrop"
             android:contentDescription="Gambar Pantai"
             android:layout_marginBottom="20dp"/>
