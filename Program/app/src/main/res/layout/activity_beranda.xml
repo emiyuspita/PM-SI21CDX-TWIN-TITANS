@@ -28,36 +28,36 @@
 
             <ImageView
                 android:id="@+id/img_igg"
-                android:layout_width="90dp"
+                android:layout_width="111dp"
                 android:layout_height="40dp"
                 android:src="@drawable/igg"
                 android:layout_centerInParent="true"/>
 
             <ImageView
                 android:id="@+id/img_mapp"
-                android:layout_width="90dp"
+                android:layout_width="95dp"
                 android:layout_height="40dp"
                 android:src="@drawable/mapp" />
 
             <ImageView
                 android:id="@+id/img_tkt"
-                android:layout_width="90dp"
+                android:layout_width="95dp"
                 android:layout_height="40dp"
                 android:src="@drawable/tkt" />
 
             <ImageView
                 android:id="@+id/img_cuaca"
-                android:layout_width="90dp"
+                android:layout_width="111dp"
                 android:layout_height="40dp"
                 android:src="@drawable/cuaca" />
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/poto1"
+            android:id="@+id/potoo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/pahawangg"
+            android:src="@drawable/potoo"
             android:scaleType="centerCrop"
             android:contentDescription="Gambar Pantai"
             android:layout_marginBottom="20dp"/>
