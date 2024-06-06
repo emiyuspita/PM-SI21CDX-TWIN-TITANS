@@ -31,5 +31,13 @@ class BerandaActivity : AppCompatActivity() {
             intent.data = Uri.parse(url)
             startActivity(intent)
         }
+
+        val imageView4: ImageView = findViewById(R.id.img_cuaca)
+        imageView4.setOnClickListener {
+            val url = "https://www.weather.com"
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(url)
+            startActivity(intent)
+        }
         }
     }
