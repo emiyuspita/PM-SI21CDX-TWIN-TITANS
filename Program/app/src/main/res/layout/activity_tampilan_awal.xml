@@ -40,7 +40,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton_next"
+            android:id="@+id/btn_beranda"
             android:layout_width="122dp"
             android:layout_height="match_parent"
             android:src="@drawable/home"
@@ -48,7 +48,7 @@
             android:background="@null"/>
 
         <ImageButton
-            android:id="@+id/imageButton_next1"
+            android:id="@+id/btn_transaksi"
             android:layout_width="122dp"
             android:layout_height="match_parent"
             android:src="@drawable/transaction"
