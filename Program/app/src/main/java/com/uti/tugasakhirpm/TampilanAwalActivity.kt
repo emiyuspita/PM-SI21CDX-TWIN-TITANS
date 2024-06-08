@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -26,6 +27,16 @@ class TampilanAwalActivity : AppCompatActivity() {
             val intent = Intent(this, BerandaActivity::class.java)
             startActivity(intent)
 
+        }
+
+        val btnchat = findViewById<ImageButton>(R.id.btn_chat)
+        btnchat.setOnClickListener {
+            val phoneNumber = "+6281272147213" // Ganti dengan nomor WhatsApp yang ingin Anda tuju
+            val uri = "https://wa.me/$6281272147213"
+
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(uri)
+            startActivity(intent)
         }
     }
 }
