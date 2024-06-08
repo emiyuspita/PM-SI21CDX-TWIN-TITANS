@@ -55,6 +55,14 @@
             android:contentDescription="Next Page"
             android:background="@null"/>
 
+        <ImageButton
+            android:id="@+id/btn_chat"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/chat"
+            android:contentDescription="Next Page"
+            android:background="@null"/>
+
     </LinearLayout>
 
 </LinearLayout>
