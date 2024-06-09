@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/poto"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="195dp"
             android:src="@drawable/pto"
             android:scaleType="centerCrop"
             android:contentDescription="Gambar Pantai"
@@ -64,10 +64,28 @@
         <ImageView
             android:id="@+id/potoo"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="190dp"
             android:src="@drawable/potoo"
             android:scaleType="centerCrop"
             android:contentDescription="Gambar Pantai"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promo Meriah Tiket Masuk Pahawang Lebih Hemat"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/promo"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/promo"
+            android:scaleType="centerCrop"
+            android:contentDescription="Promo"
             android:layout_marginBottom="20dp"/>
 
 
@@ -75,4 +93,4 @@
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
