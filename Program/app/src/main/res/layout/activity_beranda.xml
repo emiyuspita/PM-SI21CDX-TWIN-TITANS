@@ -53,6 +53,14 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulau Pahawang salah satu destinasi wisata bahari terindah di Pesawaran, Lampung."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
         <ImageView
             android:id="@+id/potoo"
             android:layout_width="match_parent"
@@ -62,14 +70,7 @@
             android:contentDescription="Gambar Pantai"
             android:layout_marginBottom="20dp"/>
 
-        <TextView
-            android:id="@+id/text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pulau Pahawang salah satu destinasi wisata bahari terindah di Pesawaran, Lampung."
-            android:textSize="14dp"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+
 
 
     </LinearLayout>
