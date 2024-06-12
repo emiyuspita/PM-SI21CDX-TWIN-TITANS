@@ -124,7 +124,7 @@
             android:id="@+id/promo"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:src="@drawable/promo"
+            android:src="@drawable/promomasuk"
             android:scaleType="centerCrop"
             android:contentDescription="Promo"
             android:layout_marginBottom="20dp"/>
