@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TugasAkhirPM"
         tools:targetApi="31">
         <activity
+            android:name=".TiketMasukSatuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TiketMasukActivity1"
+            android:exported="false" />
+        <activity
             android:name=".TiketMasukActivity"
             android:exported="false" />
         <activity
