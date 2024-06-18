@@ -56,3 +56,63 @@
                     android:textSize="17dp"/>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/txt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txt_No"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Nomor Telepon"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/txt_tgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Tanggal Kunjungan"
+                    android:inputType="textPersonName"/>
+
+                <EditText
+                    android:id="@+id/txt_tiket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Jumlah Tiket"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/txt_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Alamat Penjemputan"
+                    android:inputType="textPostalAddress"/>
+
+                <EditText
+                    android:id="@+id/txt_catatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Catatan Tambahan"
+                    android:inputType="textMultiLine"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
