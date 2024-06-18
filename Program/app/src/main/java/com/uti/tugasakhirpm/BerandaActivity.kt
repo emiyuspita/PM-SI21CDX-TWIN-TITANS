@@ -32,6 +32,12 @@ class BerandaActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val imageView3: ImageView = findViewById(R.id.img_tkt)
+        imageView3.setOnClickListener {
+            val intent = Intent(this, TransaksiActivity::class.java)
+            startActivity(intent)
+        }
+
         val imageView4: ImageView = findViewById(R.id.img_cuaca)
         imageView4.setOnClickListener {
             val url = "https://www.weather.com"
