@@ -16,12 +16,20 @@ class TransaksiActivity : AppCompatActivity() {
         setContentView(R.layout.activity_transaksi)
 
         val gambar1: ImageView = findViewById(R.id.gambar1)
+        val gambar2: ImageView = findViewById(R.id.gambar2)
 
         gambar1.setOnClickListener {
             val intent = Intent(this, TiketMasukActivity::class.java)
             intent.putExtra("image_id", R.drawable.pahawang1)
             startActivity(intent)
         }
+
+        gambar2.setOnClickListener {
+            val intent = Intent(this, TiketMasukSatuActivity::class.java)
+            intent.putExtra("image_id", R.drawable.pahawang2)
+            startActivity(intent)
+        }
+
 
 
     }
