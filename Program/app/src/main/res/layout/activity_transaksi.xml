@@ -23,7 +23,7 @@
                 android:layout_height="300dp"
                 android:src="@drawable/pahawang1"
                 android:background="@drawable/background"
-                android:contentDescription="Gambar 1"
+                android:contentDescription="Gambar1"
                 android:layout_marginBottom="16dp" />
 
             <ImageView
@@ -32,7 +32,7 @@
                 android:layout_height="300dp"
                 android:src="@drawable/pahawang2"
                 android:background="@drawable/background"
-                android:contentDescription="Gambar 1"
+                android:contentDescription="Gambar2"
                 android:layout_marginBottom="16dp" />
 
             <ImageView
@@ -41,7 +41,7 @@
                 android:layout_height="300dp"
                 android:src="@drawable/pahawang3"
                 android:background="@drawable/background"
-                android:contentDescription="Gambar 1"
+                android:contentDescription="Gambar3"
                 android:layout_marginBottom="16dp" />
 
             <ImageView
@@ -50,7 +50,7 @@
                 android:layout_height="300dp"
                 android:src="@drawable/pahawang4"
                 android:background="@drawable/background"
-                android:contentDescription="Gambar 1"
+                android:contentDescription="Gambar4"
                 android:layout_marginBottom="16dp" />
 
             <ImageView
@@ -59,7 +59,7 @@
                 android:layout_height="300dp"
                 android:src="@drawable/pahawang5"
                 android:background="@drawable/background"
-                android:contentDescription="Gambar 1"
+                android:contentDescription="Gambar5"
                 android:layout_marginBottom="16dp" />
 
 
