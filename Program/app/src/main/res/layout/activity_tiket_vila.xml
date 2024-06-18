@@ -74,7 +74,7 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/txt_phone"
+                    android:id="@+id/txt_no"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nomor Telepon"
@@ -95,10 +95,10 @@
                     android:inputType="date" />
 
                 <EditText
-                    android:id="@+id/txt_guests"
+                    android:id="@+id/txt_tiket"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Jumlah Orang"
+                    android:hint="Jumlah Tiket"
                     android:inputType="number" />
 
                 <EditText
