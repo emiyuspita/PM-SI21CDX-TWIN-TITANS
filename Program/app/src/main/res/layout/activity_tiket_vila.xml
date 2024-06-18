@@ -56,6 +56,67 @@
                     android:textSize="17dp"/>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background"
+                android:padding="10dp">
+
+
+                <EditText
+                    android:id="@+id/txt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Lengkap"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor Telepon"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/txt_checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Check-in"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/txt_checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Check-out"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/txt_guests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Jumlah Orang"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/txt_permintaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Permintaan Khusus"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txt_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat Penjemputan"
+                    android:inputType="textPersonName" />
+                
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
