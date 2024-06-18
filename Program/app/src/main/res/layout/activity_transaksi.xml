@@ -35,6 +35,23 @@
                 android:contentDescription="Gambar 1"
                 android:layout_marginBottom="16dp" />
 
+            <ImageView
+                android:id="@+id/gambar3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/pahawang3"
+                android:background="@drawable/background"
+                android:contentDescription="Gambar 1"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/gambar4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/pahawang3"
+                android:background="@drawable/background"
+                android:contentDescription="Gambar 1"
+                android:layout_marginBottom="16dp" />
 
 
         </LinearLayout>
