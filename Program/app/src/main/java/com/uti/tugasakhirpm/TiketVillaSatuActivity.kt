@@ -24,7 +24,6 @@ class TiketVillaSatuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_tiket_villa_satu)
-        setContentView(R.layout.activity_tiket_vila)
         txt_name = findViewById(R.id.txt_name)
         txt_no = findViewById(R.id.txt_no)
         txt_checkin = findViewById(R.id.txt_checkin)
