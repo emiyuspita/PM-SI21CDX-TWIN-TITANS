@@ -116,6 +116,14 @@
                     android:inputType="textPersonName" />
 
             </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Pesan"
+                android:background="#448da9"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
