@@ -24,7 +24,7 @@ class TampilanAwalActivity : AppCompatActivity() {
 
         val btntransaksi = findViewById<ImageButton>(R.id.btn_transaksi)
         btntransaksi.setOnClickListener {
-            val intent = Intent(this, BerandaActivity::class.java)
+            val intent = Intent(this, TransaksiActivity::class.java)
             startActivity(intent)
 
         }
