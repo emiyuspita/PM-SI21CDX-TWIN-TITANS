@@ -18,6 +18,7 @@ class TransaksiActivity : AppCompatActivity() {
         val gambar1: ImageView = findViewById(R.id.gambar1)
         val gambar2: ImageView = findViewById(R.id.gambar2)
         val gambar3: ImageView = findViewById(R.id.gambar3)
+        val gambar4: ImageView = findViewById(R.id.gambar4)
 
 
         gambar1.setOnClickListener {
@@ -38,6 +39,10 @@ class TransaksiActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        gambar4.setOnClickListener {
+            val intent = Intent(this, TiketVillaSatuActivity::class.java)
+            intent.putExtra("image_id", R.drawable.pahawang4)
+            startActivity(intent)
+        }
     }
 }
